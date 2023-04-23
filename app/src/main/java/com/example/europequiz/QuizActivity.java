@@ -34,6 +34,8 @@ public class QuizActivity extends AppCompatActivity {
     int secondsLeft = 0;
     int randomValue = 21;
     int randomValue2 = 22;
+    int randomValue3 = 23;
+    int randomValue4 = 24;
 
     CountDownTimer secondsLeftCountdownTimer;
 
