@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/secondsLeftTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="24sp"
+        android:layout_marginStart="270dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/albumImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="252dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/europe6" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:textSize="25dp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/variant1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:text="Sign of the Times" />
+
+    <Button
+        android:id="@+id/variant2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="More than Meets the Eyes" />
+
+    <Button
+        android:id="@+id/variant3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="Stormwind" />
+
+    <Button
+        android:id="@+id/variant4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="Never Say Die" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/scoreTextTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/europa"
+                android:text="Score: "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/skipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/europa"
+            android:text="Skip"
+            android:layout_marginTop="18dp"
+            android:onClick="skip"
+            android:layout_marginStart="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>

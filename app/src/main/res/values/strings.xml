@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Europe Quiz</string>
+    <string name="best_score">Best score: </string>
+    <string name="start_europe_quiz">Start Europe Quiz</string>
+</resources>
