@@ -32,11 +32,6 @@ public class QuizActivity extends AppCompatActivity {
     int numberOfLevels = 7;
     int currentScore = 0;
     int secondsLeft = 0;
-    int randomValue = 21;
-    int randomValue2 = 22;
-    int randomValue3 = 23;
-    int randomValue4 = 24;
-    int randomValue5 = 25;
 
     CountDownTimer secondsLeftCountdownTimer;
 
